@@ -1,0 +1,145 @@
+.details-div {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-center {
+  text-align: center;
+}
+.white {
+  color: #f1f5f9;
+  font-size: 15px;
+}
+.gap {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.align-left {
+  align-self: flex-start;
+}
+.retry-button {
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #6366f1;
+  padding: 10px;
+  align-self: center;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.success-container {
+  width: 90%;
+  border-radius: 10px;
+  padding: 15px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills-li {
+  list-style-type: none;
+  display: flex;
+  margin: 15px;
+  width: 40%;
+}
+.skills-logo {
+  margin-right: 15px;
+  width: 40%;
+}
+.life-content-div {
+  display: flex;
+  flex-direction: column;
+}
+.failure-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.failure-image {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .life-content-div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .para-life {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .skills-li {
+    width: 30%;
+  }
+  .skills-logo {
+    width: 20%;
+  }
+}
+.similar {
+  color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.similar-ul {
+  display: flex;
+  flex-direction: column;
+  color: #cbd5e1;
+}
+.similar-li {
+  border-radius: 10px;
+  padding: 20px;
+  list-style-type: none;
+  background-color: #272727;
+  margin: 20px;
+}
+.similar-image {
+  width: 40%;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .similar-ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .similar-li {
+    width: 40%;
+  }
+  .similar-image {
+    width: 20%;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.anchor {
+  color: #6366f1;
+  text-decoration: none;
+  align-self: center;
+}
+.link-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  align-self: center;
+}
+.visit-button {
+  border-width: 0px;
+  background-color: transparent;
+  color: #6366f1;
+  cursor: pointer;
+  outline: none;
+}
